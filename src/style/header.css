@@ -1,0 +1,17 @@
+ul{
+    display: flex;
+    gap:5px;
+    margin:0;
+    padding:20px;
+}
+li{
+    list-style-type:none;
+}
+
+.menulink{
+    text-decoration: none;
+    color:black;
+}
+.add-new-link{
+    margin-left: auto;
+}

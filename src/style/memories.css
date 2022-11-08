@@ -1,0 +1,19 @@
+.memories{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.memory-card{
+    display: flex;
+    flex-direction: column;
+    width:70vw;
+    background-color: antiquewhite;
+    margin-bottom:10px;
+}
+
+.memory-description{
+    background-color: rgb(204, 204, 227);
+    height:50px;
+    overflow: hidden;
+}
