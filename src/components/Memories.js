@@ -26,7 +26,7 @@ function Memories() {
     <div className="memories">
       <h1>Memories</h1>
 
-      <div className="memory-container">
+      <div className="memories-container">
         {memories.map((memory) => {
           return (
             <Memorycard
@@ -35,6 +35,7 @@ function Memories() {
               description={memory.description}
               id={memory._id}
               date={memory.date ? memory.date : memory.createdAt}
+              memoryById={null}
             />
           );
         })}
