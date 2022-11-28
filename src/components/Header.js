@@ -4,7 +4,7 @@ import "../style/header.css";
 
 function Header() {
   return (
-    <div>
+    <div className="header">
       <ul>
         <li>
           <Link className="menulink" to="/">

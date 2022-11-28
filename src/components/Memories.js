@@ -24,8 +24,7 @@ function Memories() {
 
   return (
     <div className="memories">
-      <h1>Memories</h1>
-
+      <h1 className="page-title">Memories</h1>
       <div className="memories-container">
         {memories.map((memory) => {
           return (

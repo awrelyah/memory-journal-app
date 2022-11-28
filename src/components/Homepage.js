@@ -4,7 +4,10 @@ import "../style/main.css";
 function Homepage() {
   return (
     <div className="maincontent">
-      <div>KEEP TRACK OF YOUR FAVORITE MEMORIES</div>
+      <h1>KEEP TRACK OF YOUR FAVORITE MEMORIES</h1>
+      <p>
+        just another journaling app for you not to forget your favorite moments
+      </p>
     </div>
   );
 }
